@@ -3,10 +3,13 @@
 # para resolver un problema de tu elección. La función debe de ser llamada 
 # desde el cuerpo del programa principal. 
 
-# Para este ejemplo, voy a crear una función en Python que calcule la suma de 
-# los elementos de una lista que cumplan cierta condición. La función será llamada 
-# desde el cuerpo del programa principal, que creará una lista y llamará a la función 
-# para obtener la suma de los elementos que sean múltiplos de 3.
+# Para este ejemplo, voy a crear una función en Python que calcule la suma 
+# de los elementos de una lista que cumplan cierta condición. La 
+# función será llamada desde el cuerpo del programa principal, que 
+# pedirá al usuario una lista de números separados mediante una coma y 
+# llamará a la función para obtener la suma de los elementos que sean 
+# múltiplos de 3.
+
 
 
 def suma_multiplos_3(lista):
