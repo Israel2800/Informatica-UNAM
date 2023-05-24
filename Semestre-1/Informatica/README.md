@@ -1,1 +1,1 @@
-# Informatica-UNAM
+# Informática-UNAM
