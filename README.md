@@ -1,1 +1,1 @@
-# Semestre 1 - Informatica-UNAM
+# Informatica-UNAM
