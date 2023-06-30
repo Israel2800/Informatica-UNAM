@@ -1,6 +1,6 @@
 // Elabora un programa en C que acepte el ingreso de dos números 
 // y que, por medio de una función, obtenga la suma de estos.
-// Utilizando valores de tipo flotante.
+// Utilizando valores de tipo flotante:
 
 #include <stdio.h>
 
