@@ -1,4 +1,4 @@
-// Elabora un programa en C que acepte el ingreso de cinco 
+// b) Elabora un programa en C que acepte el ingreso de cinco 
 // números, y que posteriormente imprima las direcciones de 
 // memoria de los valores correspondientes
 
