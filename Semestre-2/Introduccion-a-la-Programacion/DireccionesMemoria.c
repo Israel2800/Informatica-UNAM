@@ -8,7 +8,7 @@ int main() {
     int numeros[5];
     int i;
 
-    printf("Ingresa cinco numeros:\n");
+    printf("Ingrese cinco numeros:\n");
 
     for (i = 0; i < 5; i++) {
         printf("Numero %d: ", i + 1);
