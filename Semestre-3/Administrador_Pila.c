@@ -34,7 +34,7 @@ bool estaLlena(Pila *pila) {
     return pila->tope == MAX_TAMANO_PILA - 1;
 }
 
-// Función para agregar un nombre a la pila utlilizando(push)
+// Función para agregar un nombre a la pila utlilizando (push)
 void push(Pila *pila, char nombre[]) {
     if (estaLlena(pila)) {
         printf("La pila esta llena. No se puede agregar el nombre: %s\n", nombre);
