@@ -246,7 +246,7 @@ int main() {
 	addEdge(graph, "Ciudad de Mexico", "Estado de Mexico");
 	addEdge(graph, "Ciudad de Mexico", "Morelos");
     // Imprimir los estados y sus vecinos
-    printf("Estados de la República Mexicana y sus estados vecinos:\n");
+    printf("Estados de la Republica Mexicana y sus estados vecinos:\n");
     printGraph(graph);
 
     // Liberar la memoria del grafo
