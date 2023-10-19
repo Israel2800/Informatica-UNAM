@@ -40,7 +40,7 @@ void quickSort(char* arr[], int low, int high) {
 }
 
 int main() {
-    char* songs[] = {
+    char* canciones[] = {
         "Turning page",
         "Fugaz",
         "Let it be",
@@ -65,18 +65,18 @@ int main() {
         "Makes me happy"
     };
 
-    int num_songs = sizeof(songs) / sizeof(songs[0]);
+    int num_canciones = sizeof(canciones) / sizeof(canciones[0]);
 
     printf("Canciones en orden ascendente:\n");
-    quickSort(songs, 0, num_songs - 1);
+    quickSort(canciones, 0, num_canciones - 1);
 
-    for (int i = 0; i < num_songs; i++) {
-        printf("%s\n", songs[i]);
+    for (int i = 0; i < num_canciones; i++) {
+        printf("%s\n", canciones[i]);
     }
 
     printf("\nCanciones en orden descendente:\n");
-    for (int i = num_songs - 1; i >= 0; i--) {
-        printf("%s\n", songs[i]);
+    for (int i = num_canciones - 1; i >= 0; i--) {
+        printf("%s\n", canciones[i]);
     }
 
     return 0;
