@@ -28,7 +28,7 @@ void quickSort(char* arr[], int low, int high) {
     if (low < high) {
         int pi = partition(arr, low, high); // Índice del pivote
 
-        // Ordenamos los elementos antes y después del pivote recursivamente
+        // Ordenamos los elementos antes y después del pivote
         quickSort(arr, low, pi - 1);
         quickSort(arr, pi + 1, high);
     }
