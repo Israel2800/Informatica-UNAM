@@ -1,3 +1,8 @@
+// Desarrolla en Lenguaje C el programa que ordene de manera ascendente 
+// y descendente un arreglo de cadenas, con los nombres de canciones que 
+// a ti te gusten (mínimo 20 canciones). Utiliza el algoritmo Quick Sort 
+// de manera recursiva. Recuerda poner en los comentarios el algoritmo utilizado. 
+
 #include <stdio.h>
 #include <string.h>
 
