@@ -46,7 +46,7 @@ void agregarVecino(struct Estado* estado, const char* nombreVecino) {
     }
 }
 
-// Función para imprimir los vecinos de un estado
+// Imprimir los vecinos de un estado
 void imprimirVecinos(struct Estado* estado) {
     printf("%s:\n", estado->nombre);
     struct NodoVecino* actual = estado->vecinos;
